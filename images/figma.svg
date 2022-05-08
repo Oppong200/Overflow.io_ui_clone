@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="20px" viewBox="0 0 14 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>01 - Assets/04 - Design tools/figma</title>
+    <desc>Created with Sketch.</desc>
+    <g id="01-All-pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-Home" transform="translate(-258.000000, -533.000000)">
+            <g id="Header" transform="translate(0.000000, 96.000000)">
+                <g id="Subheading" transform="translate(108.000000, 400.000000)">
+                    <g id="design-tools-logos" transform="translate(113.000000, 35.000000)">
+                        <g id="01---Assets/04---Design-tools/figma" transform="translate(32.000000, 0.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="24" height="24"></rect>
+                            <g id="Figma-logo" stroke-width="1" fill-rule="evenodd" transform="translate(5.000000, 2.000000)">
+                                <path d="M3.31074773,19.856772 C5.13828048,19.856772 6.62149547,18.3741331 6.62149547,16.54731 L6.62149547,13.237848 L3.31074773,13.237848 C1.48321498,13.237848 0,14.720487 0,16.54731 C0,18.3741331 1.48321498,19.856772 3.31074773,19.856772 Z" id="path0_fill" fill="#0ACF83" fill-rule="nonzero"></path>
+                                <path d="M0,9.92838602 C0,8.10156299 1.48321498,6.61892401 3.31074773,6.61892401 L6.62149547,6.61892401 L6.62149547,13.237848 L3.31074773,13.237848 C1.48321498,13.237848 0,11.755209 0,9.92838602 Z" id="path1_fill" fill="#A259FF" fill-rule="nonzero"></path>
+                                <path d="M0,3.30946201 C0,1.48263898 1.48321498,0 3.31074773,0 L6.62149547,0 L6.62149547,6.61892401 L3.31074773,6.61892401 C1.48321498,6.61892401 0,5.13628503 0,3.30946201 Z" id="path1_fill_1_" fill="#F24E1E" fill-rule="nonzero"></path>
+                                <path d="M6.62149547,0 L9.9322432,0 C11.7597759,0 13.2429909,1.48263898 13.2429909,3.30946201 C13.2429909,5.13628503 11.7597759,6.61892401 9.9322432,6.61892401 L6.62149547,6.61892401 L6.62149547,0 Z" id="path2_fill" fill="#FF7262" fill-rule="nonzero"></path>
+                                <path d="M13.2429909,9.92838602 C13.2429909,11.755209 11.7597759,13.237848 9.9322432,13.237848 C8.10471045,13.237848 6.62149547,11.755209 6.62149547,9.92838602 C6.62149547,8.10156299 8.10471045,6.61892401 9.9322432,6.61892401 C11.7597759,6.61892401 13.2429909,8.10156299 13.2429909,9.92838602 Z" id="path3_fill" fill="#1ABCFE" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
