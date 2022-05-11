@@ -290,3 +290,44 @@ a.site-link:hover .caret {
     top: 300px;
     left: 400px;
 }
+.testimonial-section{
+    margin: 0;
+    padding: 0 32px;
+}
+.testimonial-sec-holder{
+    padding: 88px 64px;
+    background-color: #f1fbff;
+}
+.testimonial-carousel{
+    padding: 0 56px 32px;
+    margin: 0 64px;
+}
+.carousel-header{
+    font-size: 12px;
+    text-align: center;
+    margin: 0 0 32px;
+    color: #151582;
+}
+.testimonial-carousel-header{
+    font-size: 32px;
+    max-width: 800px;
+    margin: 0 0 32px;
+    color: #161637;
+    font-weight: bold;
+    text-align: center;
+}
+.testimonial-names{
+    display: flex;
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 40px 16px 16px;
+}
+.testimonial-avatar{
+    width: 48px;
+    object-fit: contain;
+}
+.avatar-text-2{
+    font-size: 12px;
+    
+}
