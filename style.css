@@ -291,7 +291,7 @@ a.site-link:hover .caret {
     left: 400px;
 }
 .testimonial-section{
-    margin: 0;
+    margin: 0 0 88px 0;
     padding: 0 32px;
 }
 .testimonial-sec-holder{
@@ -318,7 +318,7 @@ a.site-link:hover .caret {
 }
 .testimonial-names{
     display: flex;
-    gap: 1%;
+    gap: 2%;
     align-items: center;
     justify-content: center;
     padding: 16px 40px 16px 16px;
@@ -327,7 +327,103 @@ a.site-link:hover .caret {
     width: 48px;
     object-fit: contain;
 }
+.avatar-text a{
+    font-size: 13px;
+    font-weight: 600;
+}
 .avatar-text-2{
     font-size: 12px;
+}
+.testimonial-image{
+    max-width: 48px;
+}
+
+/*FOOTER SECTION*/
+.footer-section{
+    padding: 56px 0 0;
+}
+.foot{
+    margin: 0 20px;
+}
+.footer{
+    display: flex;
+    padding: 48px 0;
+    justify-content: space-between;
+}
+.footer-sec1, .footer-sec2,.footer-sec3,.footer-sec4, .footer-sec5{
+    padding: 0 12px;
+}
+.footer-title{
+    font-size: 13px;
+    margin: 0 0 40px;
+}
+.footer-link{
+    margin: 0 0 32px;
+}
+.footer-nav-link{
+    display: block;
+    font-size: 14px;
+}
+.footer-nav-item{
+    list-style: none;
+    margin: 0 0 24px;
+}
+.footer-image{
+    margin: 0 0 32px;
+}
+.footer-p{
+    max-width: 392px;
+}
+.footer-sec5-s{
+    margin: 0 0 16px;
+}
+.footer-input{
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 0.5px solid #161637;
+}
+.footer-button{
+    padding: 14px 16px;
+    font-size: 16px;
+    background-color: #2c2c96;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.footer-f{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 32px 24px;
+}
+.footer-f-left{
+    display: flex;
+}
+
+.footer-f-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.footer-f-item{
+    list-style: none;
+}
+.footer-f-item a, .footer-f-p,.footer-f-pa{
+    font-size: 12px;
+}
+.footer-f-p{
+    padding: 0 12px;
+    margin: 0 0 16px;
+    display: inline-block;
+}
+.footer-f-pa{
+    margin: 0 0 16px auto;
+    display: inline-block;
+}
+.footer-main-link{
+    font-size: 12px;
+}
+hr{
+    margin-right: -112px;
+    margin-left: -112px;
     
 }
