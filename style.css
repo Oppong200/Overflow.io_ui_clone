@@ -19,16 +19,18 @@
     width: 98%;
     display: flex;
     flex-direction: row;
-    padding: 2% 1% 2% 0;
+    padding: 1% 1% 1% 0;
     align-items: center;
     gap: 10%;
     position: fixed;
     background-color: fff;
     z-index: 999;
 }
-.scroll{
+
+.scroll {
     background-color: #fbfbfb;
 }
+
 a {
     color: #161637;
     font-weight: 400;
@@ -37,7 +39,7 @@ a {
 }
 
 a:hover {
-    color: rgb(75, 75, 246);
+    color: #0085e4;
 }
 
 .dropdown-one,
@@ -46,61 +48,115 @@ a:hover {
     align-items: center;
     position: relative;
 }
-.dropdown-one:hover{
+
+.dropdown-one:hover {
     transition: all 0.5s ease;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     display: none;
 }
-.dropdown-one:hover .dropdown-menu{
+
+.drop-sec1,
+.drop-sec2,
+.drop-sec3,
+.drop-sec4 {
+    /* flex-grow: 1; */
+    transition: all .15s ease-in 0s;
+    border-right: 1px solid #dadce0;
+    flex: 1.2;
+    padding: 20px 20px;
+}
+
+.drop-sec4 {
+    background-color: #fbfbfb;
+    flex: 1.5;
+}
+
+.drop-sec1 {
+    flex: 1.5;
+    padding-left: 110px;
+}
+
+.dropdown-one:hover .dropdown-menu {
     display: flex;
     position: absolute;
-    top: 30px;
-    left: -410px;
-    width: 85vw;
-    gap: 4%;
+    top: 155%;
+    right: 0;
+    left: -420px;
+    min-width: 100vw;
     z-index: 999;
+    justify-content: space-evenly;
+    transition: all 0.3s ease-out 0s;
     background-color: white;
     text-align: justify;
-    padding: 0 80px;
-    overflow: hidden;
+
+    height: 400px !important;
+    overflow-y: auto !important;
+    border: solid #dadce0 !important;
+    border-width: 1px 0 !important;
+    clip: inherit !important;
 }
-.side{
-    color: #acacbc;
-}
-.drop-item{
+
+.drop-item {
     list-style: none;
-    padding: 16px 0;
 }
-.drop-link{
+
+.icon-holder {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.drop-link {
     display: flex;
     color: #161637;
     font-size: 14px;
     line-height: 1.5714;
 }
-.description{
+
+.linkup{
+    padding-top: 10px;
+}
+.another-link {
+    background: none;
+    color: #0085e4;
+    font-weight: 500;
+}
+
+.drop-link:hover {
+    transition: all 0.3s ease;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.description {
     max-width: 250px;
 }
-.drop-header{
+
+.drop-header {
     margin-bottom: 15px;
     color: #acacbc;
     letter-spacing: 1px;
 }
-.icon{
+
+.icon {
     vertical-align: middle;
     width: 24px;
     height: 24px;
     margin-right: 16px;
 }
-h5.description-header{
+
+h5.description-header {
     display: flex;
     align-items: flex-start;
     font-size: 16px;
     margin-bottom: 7px;
 }
-.description-header.headme{
-    margin-bottom: -1px;
+
+.description-header.headme {
+    
 }
 
 
@@ -148,31 +204,36 @@ h5.description-header{
     justify-content: center;
 }
 
-.call-sec3{
+.call-sec3 {
     text-align: center;
     display: flex;
     flex-direction: column;
 }
-.h1-main{
+
+.h1-main {
     max-width: 1248px;
     margin: 0 -12px;
 }
-.h1-sub{
+
+.h1-sub {
     max-width: 832px;
     padding: 0 12px;
 }
-.h1-su{
+
+.h1-su {
     max-width: 624px;
     padding: 0 12px;
 }
-.call-head{
+
+.call-head {
     text-align: center;
     font-size: 64px;
     max-width: 808px;
     margin: 0 0 16px;
     padding-top: 96px;
 }
-.call-desc{
+
+.call-desc {
     margin: 0 0 32px;
     padding: 0 32px;
     font-size: 20px;
@@ -238,12 +299,14 @@ h5.description-header{
 .call-img {
     margin-right: 11px;
 }
-.textreal{
+
+.textreal {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     font-size: 12px;
 }
+
 .run {
     margin-right: 10px;
 }
@@ -338,16 +401,26 @@ h5.description-header{
 }
 
 a.site-link {
-    color: #5252ff;
+    color: #0085e4;
 }
 
 .caret {
-    color: #5252ff;
-
+    color: #0085e4;
 }
 
-a.site-link:hover .caret {
+.fa-solid.fa-angle-right {
+    color: #0085e4;
+}
+
+
+a.site-link:hover .caret ,a.another-link:hover .caret{
     padding: 5px;
+    transition: all 0.3s ease;
+}
+
+a.middle-link:hover .arrow {
+    color: #0085e4;
+    margin-top: 5px;
     transition: all 0.3s ease;
 }
 
